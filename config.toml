@@ -144,7 +144,6 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "SIGSOFT Awards"
     identifier = "section.awards"
-    url        = "/awards/sigsoftAwards"
     weight     = 1
     parent     = "menu.features"
     post       = 1
@@ -158,45 +157,51 @@ pluralizelisttitles = false
     post       = 2
 
 [[menu.main]]
+    name       = "Overview"
+    url        = "/awards/sigsoftAwards"
+    weight     = 1
+    parent     = "section.awards"
+
+[[menu.main]]
     name       = "Distinguished Service"
     url        = "/awards/distinguishedService"
-    weight     = 1
+    weight     = 2
     parent     = "section.awards"
 
 [[menu.main]]
     name       = "Outstanding Research"
     url        = "/awards/outstandingResearch"
-    weight     = 2
+    weight     = 3
     parent     = "section.awards"
 
 [[menu.main]]
     name       = "Influential Educator"
     url        = "/awards/influentialEducator"
-    weight     = 3
+    weight     = 4
     parent     = "section.awards"
 
 [[menu.main]]
     name       = "Impact Paper"
     url        = "/awards/impactPaper"
-    weight     = 4
+    weight     = 5
     parent     = "section.awards"
 
 [[menu.main]]
     name       = "Outstanding Doctoral Dissertation"
     url        = "/awards/dissertation"
-    weight     = 5
+    weight     = 6
     parent     = "section.awards"
 
 [[menu.main]]
     name       = "Early Career Researcher"
     url        = "/awards/earlyCareerResearcher"
-    weight     = 6
+    weight     = 7
     parent     = "section.awards"
 
 [[menu.main]]
     name       = "ACM SIGSOFT - SIGBED Frank Anger Memorial"
     url        = "/awards/anger"
-    weight     = 7
+    weight     = 8
     parent     = "section.awards"
 
 [[menu.main]]
