@@ -236,9 +236,9 @@ pluralizelisttitles = false
     parent     = "section.conference"
 
 [[menu.main]]
-    name       = "Overview"
+    name       = "Overview2"
     url        = "/awards/sigsoftAwards"
-    weight     = 1
+    weight     = 6
     parent     = "section.conference"
 
 [[menu.main]]
