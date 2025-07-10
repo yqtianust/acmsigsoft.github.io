@@ -144,6 +144,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "SIGSOFT Awards"
     identifier = "section.awards"
+    url        = ""
     weight     = 1
     parent     = "menu.features"
     post       = 1
