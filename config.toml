@@ -144,7 +144,7 @@ pluralizelisttitles = false
 [[menu.main]]
     name       = "SIGSOFT Awards"
     identifier = "section.awards"
-    url        = ""
+    url        = "/awards/sigsoftAwards"
     weight     = 1
     parent     = "menu.features"
     post       = 1
@@ -281,7 +281,7 @@ pluralizelisttitles = false
     weight     = 2
     parent     = "menu.join"
 
-    
+
 
 # Top bar social links menu
 
