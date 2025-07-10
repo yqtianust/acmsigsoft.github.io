@@ -158,7 +158,7 @@ pluralizelisttitles = false
     post       = 2
 
 [[menu.main]]
-    name       = "Overview"
+    name       = "SIGSOFT Awards Overview"
     url        = "/awards/sigsoftAwards"
     weight     = 1
     parent     = "section.awards"
