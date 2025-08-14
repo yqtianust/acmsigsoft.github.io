@@ -297,13 +297,13 @@ pluralizelisttitles = false
     weight = 2
     name = "GitHub"
     url = "https://github.com/acmsigsoft"
-    pre = "<i class='fa-brands fa-square-github'></i>"
+    pre = "<i class='fab fa-github-square'></i>"
 
 [[menu.topbar]]
     weight = 3
     name = "Facebook"
     url = "https://www.facebook.com/sigsoft/"
-    pre = "<i class='fa-brands fa-square-facebook'></i>"
+    pre = "<i class='fab fa-facebook-square'></i>"
 
 [[menu.topbar]]
     weight = 4
@@ -315,7 +315,7 @@ pluralizelisttitles = false
     weight = 5
     name = "Linkedin"
     url = "https://www.linkedin.com/company/acm-sigsoft/"
-    pre = "<i class='fa-brands fa-square-linkedin'></i>"
+    pre = "<i class='fab fa-linkedin'></i>"
 
 [[menu.topbar]]
     weight = 6
