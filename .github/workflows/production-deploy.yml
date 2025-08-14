@@ -1,10 +1,7 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+# Workflow for building and deploying the Hugo site to production on GitHub Pages
+name: Deploy to Production
 
 on:
-  # Runs on pushes targeting any branch
-  push:
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -29,6 +26,7 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
     env:
       HUGO_VERSION: 0.148.2
     steps:
@@ -47,17 +45,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Get branch name
-        id: branch_name
-        run: echo "branch_name=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_OUTPUT
-      - name: Set baseURL
-        id: base_url
-        run: |
-          if [ "${{ steps.branch_name.outputs.branch_name }}" == "main" ]; then
-            echo "base_url=${{ steps.pages.outputs.base_url }}" >> $GITHUB_OUTPUT
-          else
-            echo "base_url=${{ steps.pages.outputs.base_url }}/${{ steps.branch_name.outputs.branch_name }}" >> $GITHUB_OUTPUT
-          fi
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -66,7 +53,8 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.base_url.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
