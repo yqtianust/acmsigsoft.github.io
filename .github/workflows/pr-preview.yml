@@ -59,6 +59,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.base_url.outputs.base_url }}/"
+      - name: List build output
+        run: ls -R public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
