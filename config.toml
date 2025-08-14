@@ -309,7 +309,7 @@ pluralizelisttitles = false
     weight = 4
     name = "Twitter"
     url = "https://twitter.com/sigsoft"
-    pre = "<i class='fa-brands fa-x-twitter'></i>"
+    pre = "<i class='fab fa-x-twitter'></i>"
 
 [[menu.topbar]]
     weight = 5
@@ -321,7 +321,7 @@ pluralizelisttitles = false
     weight = 6
     name = "Youtube"
     url = "https://www.youtube.com/@SIGSOFT"
-    pre = "<i class='fa-brands fa-square-youtube'></i>"
+    pre = "<i class='fab fa-youtube-square'></i>"
 
 
 [params]
