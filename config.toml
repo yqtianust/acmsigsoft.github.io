@@ -321,7 +321,7 @@ pluralizelisttitles = false
     weight = 6
     name = "Youtube"
     url = "https://www.youtube.com/@SIGSOFT"
-    pre = "<i class='fab fa-youtube'></i>"
+    pre = "<i class='fab fa-2x fa-youtube'></i>"
 
 
 [params]
