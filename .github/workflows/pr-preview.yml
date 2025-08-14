@@ -58,9 +58,8 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.base_url.outputs.base_url }}/"
-      - name: List build output
-        run: ls -R public
+            --baseURL "${{ steps.base_url.outputs.base_url }}/" \
+            --destination "public/pr-${{ github.event.number }}"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
