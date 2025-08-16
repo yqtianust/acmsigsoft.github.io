@@ -324,6 +324,13 @@ pluralizelisttitles = false
     pre = "<i class='fa-brands fa-2x fa-square-youtube'></i>"
 
 
+[[menu.topbar]]
+    weight = 6
+    name = "Youtube"
+    url = "https://www.youtube.com/@SIGSOFT"
+    pre = "<i class='fab fa-2x fa-youtube'></i>"
+
+
 [params]
     viewMorePostLink = "/blog/"
     author = "SIGSOFT template made by Raula using Hugo"

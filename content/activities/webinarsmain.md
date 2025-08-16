@@ -25,6 +25,8 @@ Stay tuned for more webinars coming soon!
 
 ## Previous Webinars
 
+Playlist of previous webinars is available on [YouTube](https://www.youtube.com/playlist?list=PLn0nrSd4xjjYKKxOfmSKFiAzp6ApBHN7e).
+
 ### Working with Non-Traditional Subjects; Lessons Learned from Using VR to Help Students with ADHD Focus
 
 
@@ -36,7 +38,8 @@ Bio: David Shepherd is an Associate Professor in the Department of Computer Scie
 
 Date: Wednesday July 30, 10-11am ET
 
-Recording: https://youtu.be/ezGF87NqjVc.
+
+Recording: https://youtu.be/ezGF87NqjVc
 
 
 ### From SBOM to Trusted Software Supply Chain: How Far Are We?
