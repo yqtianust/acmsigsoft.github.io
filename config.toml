@@ -19,7 +19,7 @@ pluralizelisttitles = false
 
 # Main menu
 [[menu.main]]
-    name       = "About"
+    name       = "About This website"
     identifier = "menu.abt"
     weight     = 1
 
