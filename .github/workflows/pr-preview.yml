@@ -49,7 +49,7 @@ jobs:
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Set preview baseURL
         id: base_url
-        run: echo "base_url=https://yqtian.com/${{ github.event.repository.name }}/pr-${{ github.event.number }}" >> $GITHUB_OUTPUT
+        run: echo "base_url=${{ steps.pages.outputs.base_url }}${{ steps.pages.outputs.base_path }}/pr-${{ github.event.number }}" >> $GITHUB_OUTPUT
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
