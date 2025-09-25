@@ -282,6 +282,14 @@ pluralizelisttitles = false
     weight     = 5
     parent     = "menu.programs_activities"
 
+
+[[menu.main]]
+    name       = "Calendar"
+    url        = "/activities/calendar"
+    weight     = 6
+    parent     = "menu.programs_activities"
+
+
 [[menu.main]]
     name       = "Join"
     identifier = "menu.join"

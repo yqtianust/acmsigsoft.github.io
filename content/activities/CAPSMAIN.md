@@ -7,8 +7,8 @@ aliases: "CAPS"
 CAPS provides support for students and professionals to attend the conferences and events sponsored by ACM SIGSOFT. Currently, CAPS applications are open for:
 
 - [DEBS 2025](https://2025.debs.org): CAPS application deadline: April 28, 2025. To apply: fill your application at [this link](https://survey.alchemer.com/s3/8182217/SIGSOFT-CAPS-Travel-Support-for-DEBS-2025).
-- [ISSTA 2025](https://conf.researchr.org/home/issta-2025): CAPS application deadline: April 2, 2025. To apply: fill your application at [this link](https://survey.alchemer.com/s3/8208753/SIGSOFT-CAPS-Travel-Support-for-FSE-ISSTA-2025).</li>
-- [FSE 2025](https://conf.researchr.org/home/fse-2025) CAPS application deadline: April 2, 2025. To apply: fill your application at [this link](https://survey.alchemer.com/s3/8208753/SIGSOFT-CAPS-Travel-Support-for-FSE-ISSTA-2025).</li>
+- [ISSTA 2025](https://conf.researchr.org/home/issta-2025): CAPS application deadline: April 2, 2025. To apply: fill your application at [this link](https://survey.alchemer.com/s3/8208753/SIGSOFT-CAPS-Travel-Support-for-FSE-ISSTA-2025).
+- [FSE 2025](https://conf.researchr.org/home/fse-2025) CAPS application deadline: April 2, 2025. To apply: fill your application at [this link](https://survey.alchemer.com/s3/8208753/SIGSOFT-CAPS-Travel-Support-for-FSE-ISSTA-2025).
 - (more to be announced)
 
 **CAPS also provides support for childcare**. Childcare applications are handled separately by emailing [SIGSOFT CAPS Coordinator](mailto:sigsoft_caps@acm.org). The deadline of CAPS childcare application is flexible, depending on the applicants' needs and the availability of the funds
